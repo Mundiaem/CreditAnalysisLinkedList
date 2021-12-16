@@ -7,7 +7,7 @@ import java.util.Date;
 
  * ⚡  - CreditScoreAnalysisImplementation
  */
-
+//mapping transaction of the customers
 public class Transactions {
     private String customer_id;
     private Date transaction_date;

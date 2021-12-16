@@ -7,8 +7,9 @@ import java.util.ListIterator;
  * <p>
  * ⚡  - CreditScoreAnalysisImplementation
  */
+//
 public interface IList<T> {
-    //add specific element to the linkedList
+    //add specific element to the linkedList at first position
     void insertFirst(T t);
 
     boolean add(T t);
@@ -37,12 +38,16 @@ public interface IList<T> {
 
     int size();
 
+    //sorts dates into ascending  order
     void sortedDateInsert(Node<T> newnode);
 
+    // sort date of the transactions
     void sortDate();
 
+    // sort customer and their scores
     void sort();
 
+    //sort customers and their scores into descending order
     void sortedInsert(Node<Score> newnode);
 
     void sortedCustomerWithEqualScore(Node<T> cNode);

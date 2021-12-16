@@ -5,7 +5,7 @@ package com.kopokopo.creditanalysis;
  * <p>
  * ⚡  - CreditScoreAnalysisImplementation
  */
-
+// class for mapping/modeling  customers and their scores
 public class Score {
     private String customer_id;
     private int score;

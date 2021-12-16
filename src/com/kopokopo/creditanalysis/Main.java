@@ -22,7 +22,7 @@ public class Main {
 
 
     }
-
+// take path of the file and integer n (number of customer to output)
     private static void makeAnalysis(String transactions_csv_file_path, int n) {
         String data = "";
         String[] transactions = {};
